@@ -1,4 +1,4 @@
-My first repository. I am NOT a programmer by any means, these are mere scripts to help me automate some of my work. I would love to be one in he near future, and I figure this is great practice. Please go easy on this lowly squire.
+My first repository. I am NOT a programmer by any means, these are mere scripts to help me automate some of my work. I would love to be one in the near future, and I figure this is great practice. Please go easy on this lowly squire.
 
 ComparisonStrings.py - Compares string values, very basic -  I use this to put inventory back in their shelve locations. By scanning the SKU location, and the SKU from the product it compares and show a message. Depending if the string values match or not.
 
