@@ -25,14 +25,15 @@ while True:
 
         while True:
             
-            items_returned = input(str("Items to be Returned: "))
+            items_returned = input("Items to be Returned: ")
             
-            if items_returned == '':
+            if not items_returned:
                 break
 
             
-            stuff = stuff + [items_returned]
-            stuff.sort()
+            stuff.append(items_returned)
+        stuff.sort()
+            
 
             
 
@@ -53,7 +54,7 @@ while True:
         
         print("Is the return date today? y/n")
         return_Date = input()
-        if return_Date =='y':
+        if return_Date.lower() =='y':
             return_Date = date2
         else:
             return_Date = input("Enter Return Date: ")
@@ -98,8 +99,8 @@ while True:
     Keeps count of any returns that have been done with this script, and puts them in a dictionary file -dailyReturns.csv
     {Order# : date}
     """
-
-    with open('dailyRetuns.csv', 'a') as f:
+    #Currently not working - below
+    with open('dailyReturns.csv', 'a') as f:
         w2 = csv.writer(f, delimiter='"',quoting=csv.QUOTE_NONE, quotechar='') # When quoting=csv.QUOTE_NONE csv error:need to escape popped.
 
         packageReturns[order_Num] = date
@@ -113,12 +114,12 @@ while True:
 
         
 
-        question = input("Do you need to do another return?(yes/no)'")
+    question = input("Do you need to do another return?(yes/no)")
 
-        if question == 'yes':
-            continue
-        else:
-            print("No problem, Ill see you later")
-            break
+    if question == 'yes':
+        continue
+    else:
+        print("No problem, Ill see you later")
+        break
 
 
