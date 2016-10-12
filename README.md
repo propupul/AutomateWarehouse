@@ -10,3 +10,5 @@ Label was designed using NiceLabel, with locations G1 through G9 excluding G8. T
 
 Explanation:
 If the label picking box letter is equals to "G" and the label picking box number is equals to a number 1 through 9 excluding 8 then the result is the color that you stored at that location in my case they colors are located in dropbox. Again, Same with H. I excluded 8 because we don't have that location available.
+
+![Alt text](https://github.com/propupul/AutomateWarehouse/blob/returnforms_beta/color_g_h.jpg?raw=true "Colors")
