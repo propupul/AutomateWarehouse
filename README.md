@@ -11,4 +11,6 @@ Label was designed using NiceLabel, with locations G1 through G9 excluding G8. T
 Explanation:
 If the label picking box letter is equals to "G" and the label picking box number is equals to a number between 1 and  9 excluding 8 then the result is the color that you stored at that location. In this case the colors are located in dropbox. Again, Same with H. I excluded 8 because we don't have that location available.
 
+Color coding allows replenishing stock at a given location much more accuracy and error reduction(People replenishing stock will not store the wrong item at the wrong location).
+
 ![Alt text](https://github.com/propupul/AutomateWarehouse/blob/returnforms_beta/color_g_h.jpg?raw=true "Colors")
