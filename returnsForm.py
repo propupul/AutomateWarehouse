@@ -77,7 +77,7 @@ while True:
 
     question = input("Do you need to do another return?(yes/no)")
 
-    if question == 'yes':
+    if question:
         with open('Returns.csv', 'a') as f:
             w = csv.writer(f, quoting=csv.QUOTE_ALL)
         
